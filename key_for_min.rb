@@ -12,6 +12,7 @@ def key_for_min_value(name_hash)
     if prices[i+1] < prices[i]
       current_lowest = prices[i+1]
     end
+    i += 1
   end
   current_lowest
 end
