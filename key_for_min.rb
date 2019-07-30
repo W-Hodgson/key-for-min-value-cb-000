@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   current_lowest = nil
   prices.each do |price|
     if price < i
-
+      current_lowest = price
     end
   end
 
