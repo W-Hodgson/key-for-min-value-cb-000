@@ -7,3 +7,5 @@ def key_for_min_value(name_hash)
   end
   puts prices
 end
+
+key_for_min_value({one: 100, two: 20, three: 500})
