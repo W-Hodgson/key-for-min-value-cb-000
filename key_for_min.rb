@@ -7,8 +7,7 @@ def key_for_min_value(name_hash)
   end
   i = 0
   while i < price.length
-
-
+    
   end
 end
 
