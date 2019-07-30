@@ -5,4 +5,5 @@ def key_for_min_value(name_hash)
   prices = name_hash.collect do |name, price|
     price
   end
+  puts prices
 end
