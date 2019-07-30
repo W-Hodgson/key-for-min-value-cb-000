@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   current_lowest
   while i < prices.length
     current_lowest = prices[i]
-     
+
   end
 end
 
