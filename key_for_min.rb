@@ -6,15 +6,11 @@ def key_for_min_value(name_hash)
     lowest_price = price
   end
   i = 0
-  current_lowest = 0
-  while i < prices.length-1
-    current_lowest = prices[i]
-    if prices[i+1] < prices[i]
-      current_lowest = prices[i+1]
-    end
-    i += 1
+  current_lowest = nil
+  prices.each do |price|
+
   end
-  current_lowest
+
 end
 
 key_for_min_value({one: 100, two: 20, three: 500})
