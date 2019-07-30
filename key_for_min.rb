@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   prices = name_hash.collect do |name, price|
     lowest_price = price
   end
-  i = 0
+  i = 10000000
   current_lowest = nil
   prices.each do |price|
 
